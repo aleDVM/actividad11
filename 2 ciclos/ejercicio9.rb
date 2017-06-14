@@ -16,8 +16,8 @@ b = ''
 
 3.times do |i|
   i += 1
-  b += "<td> #{i} </td>\n\t\t"
+  b += "\t\t<td> #{i} </td>\n"
 
 end
 
-puts "<table>\n<tbody>\n\t<tr>\n\t\t#{b}</tr>\n</tbody>\n</table>"
+puts "<table>\n<tbody>\n\t<tr>\n#{b}\t</tr>\n</tbody>\n</table>"
