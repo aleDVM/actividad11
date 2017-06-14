@@ -3,7 +3,8 @@
 
 a = ''
 10.times do |i|
-	
+	puts  "#{i+1} impar" if (i % 2).zero?
+	puts  "#{i+1} par" if i % 2 != 0
 end
 
 puts a
