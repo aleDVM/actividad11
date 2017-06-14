@@ -4,10 +4,7 @@
 a = true
 b = true
 
-if a == true && b == true
-    puts 'Lograste A y B!'
-  elsif  a == true && b != true
-    puts 'Lograste A! Pero no B!'
-else
-  puts 'No lograste A ni B!'
+puts 'Lograste A y B!' if a && b
+puts 'Lograste A! Pero no B!'  if a && !b
+puts 'No lograste A ni B!' if !a && !b 
 end
